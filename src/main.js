@@ -11,7 +11,7 @@ app.on('ready', ()=>{
         width: 400
     })
 
-    mainWindow.loadURL('file://${__dirname}/countdown.html')
+    mainWindow.loadURL(`file://${__dirname}/countdown.html`)
 
     mainWindow.on('closed', ()=>{
         console.log('Window closed')
